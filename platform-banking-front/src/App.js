@@ -1,8 +1,14 @@
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './style/App.css';
+import Example from './pages/home.js';
+
 
 function App() {
   return (
-    <h1>ReactJS</h1>
+    <div>
+      <Example />
+      <h1>Bem vindo ao react</h1>
+    </div>
   );
 }
 
